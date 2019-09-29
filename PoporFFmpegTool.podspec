@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PoporFFmpegTool'
-  s.version          = '0.01'
+  s.version          = '0.02'
   s.summary          = 'ios10以上使用FFmpeg4.2lib,以下的只能用3.1lib.'
 
   s.homepage         = 'https://github.com/popor/PoporFFmpegTool'

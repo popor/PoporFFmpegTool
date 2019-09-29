@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FEC23330C984025AED0EEBE09E6A3AE7 /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "mobile-ffmpeg-full";
+			productName = "mobile-ffmpeg-full";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1A6ABCB984EC19D4CE99C05C9E4B0D63 /* Pods-PoporFFmpegTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD52939E917129435F3494BAC6201AD /* Pods-PoporFFmpegTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D0620E4EDF93806583ECD0402CC100F /* Pods-PoporFFmpegTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD43880F7C724CE8E41AFE80E217AB94 /* Pods-PoporFFmpegTool_Example-dummy.m */; };
+		2882431AC004D0C0BBB2FF0B6C8905C8 /* PoporFFmpegTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC6652BE9049D3336C04DE66FF57D19 /* PoporFFmpegTool-dummy.m */; };
+		448BD0299EE69DF424C705FB5D0A4F5E /* PoporFFmpegTool.h in Headers */ = {isa = PBXBuildFile; fileRef = F64DB547680896BCAA138392C91E0E25 /* PoporFFmpegTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49C0FE42F67CD6146C015DBAA078A93C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5F0EC5617DE78E542EE1D6278AF735CB /* Pods-PoporFFmpegTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0410DA0F5B49FBF1435097D68258698A /* Pods-PoporFFmpegTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B69F37010A1FF4289532A2A4D3A248 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C9ABC7DCA6DD333084B38EA72436B865 /* PoporFFmpegTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F3125575BD13F4AAF516DDF1D0340F /* PoporFFmpegTool.m */; };
+		CC7B92DFF84985B041ACB139F68D0970 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DD46C908B0B12B4C68EFB0214EC52BF9 /* Pods-PoporFFmpegTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BE12B4113E441BAE8F99C4D5385363 /* Pods-PoporFFmpegTool_Tests-dummy.m */; };
+		F8F993B964632B7A4565FD3083FB47CD /* PoporFFmpegTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AE9FC481D06AE0D9AACD3C1D5EFF2E /* PoporFFmpegTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BE582F3A17C5F85D97DE0AC334D4FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C;
+			remoteInfo = "mobile-ffmpeg-full";
+		};
+		63EF1FDCF1FDFE125635EF5CB8D23DF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C;
+			remoteInfo = "mobile-ffmpeg-full";
+		};
+		A284929A2323A6F39C0B2A9A6341A0D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 059454BC144BD4A704B6EA182D35718A;
+			remoteInfo = PoporFFmpegTool;
+		};
+		E9B978BB17CBBFA78EAF23BCC1C59307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B98AFB1C0E6BB7D719F087A2BED05F6;
+			remoteInfo = "Pods-PoporFFmpegTool_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0410DA0F5B49FBF1435097D68258698A /* Pods-PoporFFmpegTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoporFFmpegTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0B432C33B6189484B3BD76C3DCFEA03E /* Pods-PoporFFmpegTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoporFFmpegTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0B9E71E71A5827920975CE1D897BC19B /* PoporFFmpegTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PoporFFmpegTool.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		0D06DEB6C51F1BF09BC56BB8C0A4F9B3 /* libavutil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavutil.framework; sourceTree = "<group>"; };
+		0F05DD11676ED56929EF66E8ECFF181C /* Pods-PoporFFmpegTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporFFmpegTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1384A19C46448A111758E1292034F63C /* Pods-PoporFFmpegTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporFFmpegTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		29455F4109D9406D9C6A4B8A50615B22 /* Pods-PoporFFmpegTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoporFFmpegTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2977C3650EB5F9086CD7A2C8C3941FEF /* libavdevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavdevice.framework; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37A4BE6289B2C8085B57A9834AC6E66B /* libavfilter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavfilter.framework; sourceTree = "<group>"; };
+		469EC53760B813EA7CA9BF4F635EA407 /* Pods-PoporFFmpegTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoporFFmpegTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56BE12B4113E441BAE8F99C4D5385363 /* Pods-PoporFFmpegTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PoporFFmpegTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		56DC33DF812A1BD696878796DE31E09B /* mobile-ffmpeg-full.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mobile-ffmpeg-full.xcconfig"; sourceTree = "<group>"; };
+		5E939AAD54E6FC56EF70A2347CC405F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		67FAB481689A92A9B1356164C9C7F614 /* libswresample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswresample.framework; sourceTree = "<group>"; };
+		68D6233E0AD5087F1139AAB048113E77 /* libswscale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswscale.framework; sourceTree = "<group>"; };
+		6A58A6C86735C63FF6C056366B05D75F /* PoporFFmpegTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PoporFFmpegTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71640894C976B999266F2E82A5D790FE /* Pods-PoporFFmpegTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporFFmpegTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		746AA7F5FDF6117642CDACC76E67CB2B /* libavformat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavformat.framework; sourceTree = "<group>"; };
+		7FD52939E917129435F3494BAC6201AD /* Pods-PoporFFmpegTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoporFFmpegTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		80D031E097C1D612034CD2F6763ECF19 /* Pods-PoporFFmpegTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporFFmpegTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		864A83482052B8B9A460D325C98A170D /* mobileffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mobileffmpeg.framework; sourceTree = "<group>"; };
+		8AFF0B3A3ADC892D94C7E0E7FC3C37D1 /* Pods-PoporFFmpegTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporFFmpegTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8F5ECC7074C23B16669DD717ECF07ADD /* Pods-PoporFFmpegTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoporFFmpegTool_Tests.modulemap"; sourceTree = "<group>"; };
+		93AE9FC481D06AE0D9AACD3C1D5EFF2E /* PoporFFmpegTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporFFmpegTool-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E70DAE16280150F3734C437B13D96F6 /* Pods_PoporFFmpegTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoporFFmpegTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB13BF273396AAC7FA4A7B4C3FE1C53 /* Pods-PoporFFmpegTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporFFmpegTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		A0F3125575BD13F4AAF516DDF1D0340F /* PoporFFmpegTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PoporFFmpegTool.m; path = PoporFFmpegTool/Classes/PoporFFmpegTool.m; sourceTree = "<group>"; };
+		A5C1A2766BD29D4CB9E2DC38EFAD4BF8 /* PoporFFmpegTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PoporFFmpegTool.xcconfig; sourceTree = "<group>"; };
+		B21EF3988AD4477A1915316423D79CE0 /* Pods-PoporFFmpegTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporFFmpegTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BB6A4A8F664BF6CFA21E5339D65B2250 /* libavcodec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavcodec.framework; sourceTree = "<group>"; };
+		BC48D65A8EDF751EA18E7E32A6B580F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BE0716E7D1D58C5FDA7ABE5E7908B0CB /* Pods_PoporFFmpegTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoporFFmpegTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FFB6808E805D3EA209AE399E763C60 /* Pods-PoporFFmpegTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporFFmpegTool_Example-Info.plist"; sourceTree = "<group>"; };
+		C9E19FB0517B3FDF875096F5A0C136B6 /* Pods-PoporFFmpegTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoporFFmpegTool_Example.modulemap"; sourceTree = "<group>"; };
+		CCC6652BE9049D3336C04DE66FF57D19 /* PoporFFmpegTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PoporFFmpegTool-dummy.m"; sourceTree = "<group>"; };
+		DD43880F7C724CE8E41AFE80E217AB94 /* Pods-PoporFFmpegTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PoporFFmpegTool_Example-dummy.m"; sourceTree = "<group>"; };
+		DE0C4F562AAF51D398AB806826B46D71 /* PoporFFmpegTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporFFmpegTool-prefix.pch"; sourceTree = "<group>"; };
+		DFA7B888463E1A7005010175FC6B73EC /* PoporFFmpegTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PoporFFmpegTool-Info.plist"; sourceTree = "<group>"; };
+		F64DB547680896BCAA138392C91E0E25 /* PoporFFmpegTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PoporFFmpegTool.h; path = PoporFFmpegTool/Classes/PoporFFmpegTool.h; sourceTree = "<group>"; };
+		F79E08EEB033010CBB67DE70B57A3227 /* PoporFFmpegTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PoporFFmpegTool.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		795A45FD9F889D163530F9450FDFA499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7B92DFF84985B041ACB139F68D0970 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6DE571B02E89FFA8DBEC42CCD97611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C0FE42F67CD6146C015DBAA078A93C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C6D78D318DDFD4BD3A1B435AAFA2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B69F37010A1FF4289532A2A4D3A248 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		127A3129FCAA996881B5F2F3FE97C11A /* Pods-PoporFFmpegTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8F5ECC7074C23B16669DD717ECF07ADD /* Pods-PoporFFmpegTool_Tests.modulemap */,
+				469EC53760B813EA7CA9BF4F635EA407 /* Pods-PoporFFmpegTool_Tests-acknowledgements.markdown */,
+				0F05DD11676ED56929EF66E8ECFF181C /* Pods-PoporFFmpegTool_Tests-acknowledgements.plist */,
+				56BE12B4113E441BAE8F99C4D5385363 /* Pods-PoporFFmpegTool_Tests-dummy.m */,
+				9FB13BF273396AAC7FA4A7B4C3FE1C53 /* Pods-PoporFFmpegTool_Tests-Info.plist */,
+				0410DA0F5B49FBF1435097D68258698A /* Pods-PoporFFmpegTool_Tests-umbrella.h */,
+				80D031E097C1D612034CD2F6763ECF19 /* Pods-PoporFFmpegTool_Tests.debug.xcconfig */,
+				71640894C976B999266F2E82A5D790FE /* Pods-PoporFFmpegTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-PoporFFmpegTool_Tests";
+			path = "Target Support Files/Pods-PoporFFmpegTool_Tests";
+			sourceTree = "<group>";
+		};
+		197F8DBDEC2282CB87140E5F171C60E0 /* mobile-ffmpeg-full */ = {
+			isa = PBXGroup;
+			children = (
+				9B5A4806AA5C2AE92C650230E33D8034 /* Frameworks */,
+				26B0B3A59CDDD5EC6524C08613D9BEB3 /* Support Files */,
+			);
+			path = "mobile-ffmpeg-full";
+			sourceTree = "<group>";
+		};
+		26B0B3A59CDDD5EC6524C08613D9BEB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56DC33DF812A1BD696878796DE31E09B /* mobile-ffmpeg-full.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mobile-ffmpeg-full";
+			sourceTree = "<group>";
+		};
+		397C85859A07D22D0FFFC38BAAA103C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE0716E7D1D58C5FDA7ABE5E7908B0CB /* Pods_PoporFFmpegTool_Example.framework */,
+				9E70DAE16280150F3734C437B13D96F6 /* Pods_PoporFFmpegTool_Tests.framework */,
+				6A58A6C86735C63FF6C056366B05D75F /* PoporFFmpegTool.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E1282CE37379BAF8FBF55CCED7F3F6C /* PoporFFmpegTool */ = {
+			isa = PBXGroup;
+			children = (
+				F64DB547680896BCAA138392C91E0E25 /* PoporFFmpegTool.h */,
+				A0F3125575BD13F4AAF516DDF1D0340F /* PoporFFmpegTool.m */,
+				F86F49A313BDE2E08F9A42F300BB44C8 /* Pod */,
+				D1B6D2537A34FE842EE9EC37059E97B7 /* Support Files */,
+			);
+			name = PoporFFmpegTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		478DEB13D7BF95ABA2576D2A64DBB0A5 /* Pods-PoporFFmpegTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C9E19FB0517B3FDF875096F5A0C136B6 /* Pods-PoporFFmpegTool_Example.modulemap */,
+				29455F4109D9406D9C6A4B8A50615B22 /* Pods-PoporFFmpegTool_Example-acknowledgements.markdown */,
+				1384A19C46448A111758E1292034F63C /* Pods-PoporFFmpegTool_Example-acknowledgements.plist */,
+				DD43880F7C724CE8E41AFE80E217AB94 /* Pods-PoporFFmpegTool_Example-dummy.m */,
+				0B432C33B6189484B3BD76C3DCFEA03E /* Pods-PoporFFmpegTool_Example-frameworks.sh */,
+				C3FFB6808E805D3EA209AE399E763C60 /* Pods-PoporFFmpegTool_Example-Info.plist */,
+				7FD52939E917129435F3494BAC6201AD /* Pods-PoporFFmpegTool_Example-umbrella.h */,
+				B21EF3988AD4477A1915316423D79CE0 /* Pods-PoporFFmpegTool_Example.debug.xcconfig */,
+				8AFF0B3A3ADC892D94C7E0E7FC3C37D1 /* Pods-PoporFFmpegTool_Example.release.xcconfig */,
+			);
+			name = "Pods-PoporFFmpegTool_Example";
+			path = "Target Support Files/Pods-PoporFFmpegTool_Example";
+			sourceTree = "<group>";
+		};
+		47DC8E7174F80B1C1E3CD3E6F2B193F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				197F8DBDEC2282CB87140E5F171C60E0 /* mobile-ffmpeg-full */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74087DFE0BBFABDD612508721CE077AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E1282CE37379BAF8FBF55CCED7F3F6C /* PoporFFmpegTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B5A4806AA5C2AE92C650230E33D8034 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB6A4A8F664BF6CFA21E5339D65B2250 /* libavcodec.framework */,
+				2977C3650EB5F9086CD7A2C8C3941FEF /* libavdevice.framework */,
+				37A4BE6289B2C8085B57A9834AC6E66B /* libavfilter.framework */,
+				746AA7F5FDF6117642CDACC76E67CB2B /* libavformat.framework */,
+				0D06DEB6C51F1BF09BC56BB8C0A4F9B3 /* libavutil.framework */,
+				67FAB481689A92A9B1356164C9C7F614 /* libswresample.framework */,
+				68D6233E0AD5087F1139AAB048113E77 /* libswscale.framework */,
+				864A83482052B8B9A460D325C98A170D /* mobileffmpeg.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				74087DFE0BBFABDD612508721CE077AC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				47DC8E7174F80B1C1E3CD3E6F2B193F2 /* Pods */,
+				397C85859A07D22D0FFFC38BAAA103C7 /* Products */,
+				ED6B01369506FC78907EC600ABB64F47 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1B6D2537A34FE842EE9EC37059E97B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F79E08EEB033010CBB67DE70B57A3227 /* PoporFFmpegTool.modulemap */,
+				A5C1A2766BD29D4CB9E2DC38EFAD4BF8 /* PoporFFmpegTool.xcconfig */,
+				CCC6652BE9049D3336C04DE66FF57D19 /* PoporFFmpegTool-dummy.m */,
+				DFA7B888463E1A7005010175FC6B73EC /* PoporFFmpegTool-Info.plist */,
+				DE0C4F562AAF51D398AB806826B46D71 /* PoporFFmpegTool-prefix.pch */,
+				93AE9FC481D06AE0D9AACD3C1D5EFF2E /* PoporFFmpegTool-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PoporFFmpegTool";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED6B01369506FC78907EC600ABB64F47 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				478DEB13D7BF95ABA2576D2A64DBB0A5 /* Pods-PoporFFmpegTool_Example */,
+				127A3129FCAA996881B5F2F3FE97C11A /* Pods-PoporFFmpegTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F86F49A313BDE2E08F9A42F300BB44C8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5E939AAD54E6FC56EF70A2347CC405F1 /* LICENSE */,
+				0B9E71E71A5827920975CE1D897BC19B /* PoporFFmpegTool.podspec */,
+				BC48D65A8EDF751EA18E7E32A6B580F0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A84AFF05938976E7CB3165FFEA71B77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6ABCB984EC19D4CE99C05C9E4B0D63 /* Pods-PoporFFmpegTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D451FB8D50E5BA98616348281370CF0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F0EC5617DE78E542EE1D6278AF735CB /* Pods-PoporFFmpegTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D740A816F6A16142DEF7A67795A9E5D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F993B964632B7A4565FD3083FB47CD /* PoporFFmpegTool-umbrella.h in Headers */,
+				448BD0299EE69DF424C705FB5D0A4F5E /* PoporFFmpegTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		059454BC144BD4A704B6EA182D35718A /* PoporFFmpegTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5755D33A41AE11E04172048A364BEC /* Build configuration list for PBXNativeTarget "PoporFFmpegTool" */;
+			buildPhases = (
+				D740A816F6A16142DEF7A67795A9E5D1 /* Headers */,
+				21622D0CBCF0044F5458FD91B9297A8B /* Sources */,
+				D9C6D78D318DDFD4BD3A1B435AAFA2E2 /* Frameworks */,
+				9E869FA3E0B05C73B140AFBA80551B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DA33A230A6DF7B0153CC3A00F123CC1 /* PBXTargetDependency */,
+			);
+			name = PoporFFmpegTool;
+			productName = PoporFFmpegTool;
+			productReference = 6A58A6C86735C63FF6C056366B05D75F /* PoporFFmpegTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B98AFB1C0E6BB7D719F087A2BED05F6 /* Pods-PoporFFmpegTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FB22027F1CB1092B4136E5A8974C0A /* Build configuration list for PBXNativeTarget "Pods-PoporFFmpegTool_Example" */;
+			buildPhases = (
+				2A84AFF05938976E7CB3165FFEA71B77 /* Headers */,
+				5286027BFF63B0309604F0D5B2938A4E /* Sources */,
+				AF6DE571B02E89FFA8DBEC42CCD97611 /* Frameworks */,
+				6C626AB9A732427F61EE243C3C79EC2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E8BF2DA584BFFCA96DEFF99AF18156A /* PBXTargetDependency */,
+				BF2D55713FAF78A7428998474CD01210 /* PBXTargetDependency */,
+			);
+			name = "Pods-PoporFFmpegTool_Example";
+			productName = "Pods-PoporFFmpegTool_Example";
+			productReference = BE0716E7D1D58C5FDA7ABE5E7908B0CB /* Pods_PoporFFmpegTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FEE6223536FC4B863444CEFE93C9CDA /* Pods-PoporFFmpegTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1261330203CDDE4F54B07500247C3AC8 /* Build configuration list for PBXNativeTarget "Pods-PoporFFmpegTool_Tests" */;
+			buildPhases = (
+				D451FB8D50E5BA98616348281370CF0F /* Headers */,
+				E8F00C9205FA35B506B07DC740ADE48E /* Sources */,
+				795A45FD9F889D163530F9450FDFA499 /* Frameworks */,
+				C431EED8EDFD5BC65D8E8AD630187E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D841FD77073606820387D7B4B728A45 /* PBXTargetDependency */,
+			);
+			name = "Pods-PoporFFmpegTool_Tests";
+			productName = "Pods-PoporFFmpegTool_Tests";
+			productReference = 9E70DAE16280150F3734C437B13D96F6 /* Pods_PoporFFmpegTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 397C85859A07D22D0FFFC38BAAA103C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */,
+				5B98AFB1C0E6BB7D719F087A2BED05F6 /* Pods-PoporFFmpegTool_Example */,
+				6FEE6223536FC4B863444CEFE93C9CDA /* Pods-PoporFFmpegTool_Tests */,
+				059454BC144BD4A704B6EA182D35718A /* PoporFFmpegTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C626AB9A732427F61EE243C3C79EC2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E869FA3E0B05C73B140AFBA80551B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C431EED8EDFD5BC65D8E8AD630187E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21622D0CBCF0044F5458FD91B9297A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2882431AC004D0C0BBB2FF0B6C8905C8 /* PoporFFmpegTool-dummy.m in Sources */,
+				C9ABC7DCA6DD333084B38EA72436B865 /* PoporFFmpegTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5286027BFF63B0309604F0D5B2938A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0620E4EDF93806583ECD0402CC100F /* Pods-PoporFFmpegTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F00C9205FA35B506B07DC740ADE48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD46C908B0B12B4C68EFB0214EC52BF9 /* Pods-PoporFFmpegTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DA33A230A6DF7B0153CC3A00F123CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mobile-ffmpeg-full";
+			target = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */;
+			targetProxy = 3BE582F3A17C5F85D97DE0AC334D4FD5 /* PBXContainerItemProxy */;
+		};
+		5E8BF2DA584BFFCA96DEFF99AF18156A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PoporFFmpegTool;
+			target = 059454BC144BD4A704B6EA182D35718A /* PoporFFmpegTool */;
+			targetProxy = A284929A2323A6F39C0B2A9A6341A0D0 /* PBXContainerItemProxy */;
+		};
+		6D841FD77073606820387D7B4B728A45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PoporFFmpegTool_Example";
+			target = 5B98AFB1C0E6BB7D719F087A2BED05F6 /* Pods-PoporFFmpegTool_Example */;
+			targetProxy = E9B978BB17CBBFA78EAF23BCC1C59307 /* PBXContainerItemProxy */;
+		};
+		BF2D55713FAF78A7428998474CD01210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mobile-ffmpeg-full";
+			target = A4CF1A2B7EFA48AA7D1DFC45FA6B1E5C /* mobile-ffmpeg-full */;
+			targetProxy = 63EF1FDCF1FDFE125635EF5CB8D23DF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		150D99DBFBA4D71A80FCC355C49F237E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21EF3988AD4477A1915316423D79CE0 /* Pods-PoporFFmpegTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporFFmpegTool_Example/Pods-PoporFFmpegTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporFFmpegTool_Example/Pods-PoporFFmpegTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		81846B45B3B6AC006DA8248D3AA7DCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C1A2766BD29D4CB9E2DC38EFAD4BF8 /* PoporFFmpegTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PoporFFmpegTool/PoporFFmpegTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PoporFFmpegTool/PoporFFmpegTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PoporFFmpegTool/PoporFFmpegTool.modulemap";
+				PRODUCT_MODULE_NAME = PoporFFmpegTool;
+				PRODUCT_NAME = PoporFFmpegTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		871CA8459AF56F02C3ED88CC1C2AD97A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DC33DF812A1BD696878796DE31E09B /* mobile-ffmpeg-full.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0E9FCA278CC5570B5DB1667966D3A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFF0B3A3ADC892D94C7E0E7FC3C37D1 /* Pods-PoporFFmpegTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporFFmpegTool_Example/Pods-PoporFFmpegTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporFFmpegTool_Example/Pods-PoporFFmpegTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D96DC41392045E37CA2312E70538EB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71640894C976B999266F2E82A5D790FE /* Pods-PoporFFmpegTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporFFmpegTool_Tests/Pods-PoporFFmpegTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporFFmpegTool_Tests/Pods-PoporFFmpegTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F25E0550A7F074FA04A7EDD3043BB741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C1A2766BD29D4CB9E2DC38EFAD4BF8 /* PoporFFmpegTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PoporFFmpegTool/PoporFFmpegTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PoporFFmpegTool/PoporFFmpegTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PoporFFmpegTool/PoporFFmpegTool.modulemap";
+				PRODUCT_MODULE_NAME = PoporFFmpegTool;
+				PRODUCT_NAME = PoporFFmpegTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4A600BECA14093A78F5DE1BDAE7542D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DC33DF812A1BD696878796DE31E09B /* mobile-ffmpeg-full.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE935E3A494B834A71C9157CA3934CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D031E097C1D612034CD2F6763ECF19 /* Pods-PoporFFmpegTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporFFmpegTool_Tests/Pods-PoporFFmpegTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporFFmpegTool_Tests/Pods-PoporFFmpegTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1261330203CDDE4F54B07500247C3AC8 /* Build configuration list for PBXNativeTarget "Pods-PoporFFmpegTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE935E3A494B834A71C9157CA3934CF2 /* Debug */,
+				D96DC41392045E37CA2312E70538EB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5755D33A41AE11E04172048A364BEC /* Build configuration list for PBXNativeTarget "PoporFFmpegTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25E0550A7F074FA04A7EDD3043BB741 /* Debug */,
+				81846B45B3B6AC006DA8248D3AA7DCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FB22027F1CB1092B4136E5A8974C0A /* Build configuration list for PBXNativeTarget "Pods-PoporFFmpegTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150D99DBFBA4D71A80FCC355C49F237E /* Debug */,
+				D0E9FCA278CC5570B5DB1667966D3A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC23330C984025AED0EEBE09E6A3AE7 /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871CA8459AF56F02C3ED88CC1C2AD97A /* Debug */,
+				F4A600BECA14093A78F5DE1BDAE7542D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

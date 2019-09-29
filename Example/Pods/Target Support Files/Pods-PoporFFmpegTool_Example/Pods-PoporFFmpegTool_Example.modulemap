@@ -1,0 +1,6 @@
+framework module Pods_PoporFFmpegTool_Example {
+  umbrella header "Pods-PoporFFmpegTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

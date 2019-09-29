@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/PoporFFmpegTool" "${PODS_ROOT}/mobile-ffmpeg-full"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/PoporFFmpegTool/PoporFFmpegTool.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -l"bz2" -l"c++" -l"z" -framework "AudioToolbox" -framework "CoreImage" -framework "CoreMotion" -framework "CoreVideo" -framework "Foundation" -framework "GameController" -framework "PoporFFmpegTool" -framework "VideoToolbox" -framework "libavcodec" -framework "libavdevice" -framework "libavfilter" -framework "libavformat" -framework "libavutil" -framework "libswresample" -framework "libswscale" -framework "mobileffmpeg"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
