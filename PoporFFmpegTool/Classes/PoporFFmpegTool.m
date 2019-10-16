@@ -56,7 +56,7 @@
     return cmd;
 }
 
-+ (void)executeCommand:(NSString * _Nonnull)ffmpegCommand finish:(void (^ __nullable)(BOOL finish))finish {
++ (void)executeCommand:(NSString * _Nonnull)ffmpegCommand finish:(void (^ __nullable)(BOOL executeFinish))finish {
 #if HasMobileffmpeg == 1
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         //NSLog(@"FFmpeg process started with arguments\n\'%@\'\n", ffmpegCommand);

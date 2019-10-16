@@ -20,7 +20,8 @@
 // 只支持本地URL
 + (NSString * _Nullable)ffmpegCommand_VideoPath:(NSString * _Nonnull)videoPath tSize:(CGSize)tSize tPath:(NSString * _Nonnull)tPath;
 
-+ (void)executeCommand:(NSString * _Nonnull)ffmpegCommand finish:(void (^ __nullable)(BOOL finish))finish;
+// 命名规则: 具体功能函数、参数不使用简单单词
++ (void)executeCommand:(NSString * _Nonnull)ffmpegCommand finish:(void (^ __nullable)(BOOL executeFinish))finish;
 
 #pragma mark - tool
 + (CGSize)sizeFrom:(CGSize)originSize targetSize:(CGSize)targetSize;

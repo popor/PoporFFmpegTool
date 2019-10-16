@@ -122,8 +122,8 @@
     NSString * ffmpegCommand = [PoporFFmpegTool ffmpegCommand_VideoPath:videoUrlPath tSize:size tPath:tPath];
     NSLog(@"ffmpegCommand: %@", ffmpegCommand);
     
-    [PoporFFmpegTool executeCommand:ffmpegCommand finish:^(BOOL finish) {
-        self.outputL.text = [NSString stringWithFormat:@"result: %i", finish];
+    [PoporFFmpegTool executeCommand:ffmpegCommand finish:^(BOOL executeFinish) {
+        self.outputL.text = [NSString stringWithFormat:@"result: %i", executeFinish];
         NSLog(@"%@", self.outputL.text);
     }];
 }
