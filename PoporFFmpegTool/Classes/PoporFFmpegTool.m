@@ -11,16 +11,6 @@
 #import <AVFoundation/AVFoundation.h>
 #import <MediaPlayer/MediaPlayer.h>
 
-#if __has_include(<mobileffmpeg/MobileFFmpegConfig.h>)
-#define HasMobileffmpeg 1
-#import <mobileffmpeg/MobileFFmpegConfig.h>
-#import <mobileffmpeg/MobileFFmpeg.h>
-
-#else
-#define HasMobileffmpeg 0
-
-#endif
-
 @implementation PoporFFmpegTool
 
 // 只支持本地URL
