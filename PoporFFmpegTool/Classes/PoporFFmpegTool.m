@@ -11,10 +11,20 @@
 #import <AVFoundation/AVFoundation.h>
 #import <MediaPlayer/MediaPlayer.h>
 
+#if __has_include(<mobileffmpeg/MobileFFmpegConfig.h>)
+#define HasMobileffmpeg 1
+#import <mobileffmpeg/MobileFFmpegConfig.h>
+#import <mobileffmpeg/MobileFFmpeg.h>
+
+#else
+#define HasMobileffmpeg 0
+
+#endif
+
 @implementation PoporFFmpegTool
 
 // 只支持本地URL
-+ (NSString * _Nullable)ffmpegGetCmd_VideoPath:(NSString * _Nonnull)videoPath size:(CGSize)tSize tPath:(NSString * _Nonnull)tPath {
++ (NSString * _Nullable)ffmpegCommand_VideoPath:(NSString * _Nonnull)videoPath tSize:(CGSize)tSize tPath:(NSString * _Nonnull)tPath {
     if (!videoPath) {
         return nil;
     }
@@ -46,16 +56,12 @@
     return cmd;
 }
 
-/*
-+ (void)ffmpegExecuteCmd:(NSString * _Nonnull)cmd finish:(void (^ __nullable)(BOOL finish))finish {
-    
++ (void)executeCommand:(NSString * _Nonnull)ffmpegCommand finish:(void (^ __nullable)(BOOL finish))finish {
+#if HasMobileffmpeg == 1
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         //NSLog(@"FFmpeg process started with arguments\n\'%@\'\n", ffmpegCommand);
-        
-        // EXECUTE
-        int result = [MobileFFmpeg execute:cmd];
-        NSLog(@"FFmpeg process exited with rc %d\n", result);
-        
+        int result = [MobileFFmpeg execute:ffmpegCommand];
+        //NSLog(@"FFmpeg process exited with rc %d\n", result);
         dispatch_async(dispatch_get_main_queue(), ^{
             if (result == RETURN_CODE_SUCCESS) {
                 if (finish) {
@@ -68,8 +74,13 @@
             }
         });
     });
+#else
+    if (finish) {
+        NSLog(@"❌❌❌ PoporFFmpegTool: ERROR pod 'mobile-ffmpeg-full', '3.1' ❌❌❌");
+        finish(NO);
+    }
+#endif
 }
- //*/
 
 #pragma mark - tool
 + (CGSize)sizeFrom:(CGSize)originSize targetSize:(CGSize)targetSize {

@@ -35,7 +35,7 @@
     
     self.inputL = ({
         UILabel * l = [UILabel new];
-        l.frame              = CGRectMake(20, 20, width, height);
+        l.frame              = CGRectMake(20, 100, width, height);
         l.backgroundColor    = [UIColor clearColor];
         l.font               = [UIFont systemFontOfSize:15];
         l.textColor          = [UIColor darkGrayColor];
@@ -70,7 +70,7 @@
     
     self.startBT = ({
         UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
-        button.frame =  CGRectMake(20, CGRectGetMaxY(self.outputL.frame) + 20, width, height);
+        button.frame =  CGRectMake(20, CGRectGetMaxY(self.outputL.frame) + 40, width, height);
         [button setTitle:@"start" forState:UIControlStateNormal];
         [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [button setBackgroundColor:[UIColor brownColor]];
@@ -92,7 +92,6 @@
 - (void)setCornerView:(UIView *)view {
     view.layer.cornerRadius = 5;
     view.clipsToBounds = YES;
-    
 }
 
 - (void)startCompressAction {
@@ -117,14 +116,16 @@
     if ([self isFileExist:tPath]) {
         [self deleteFile:tPath];
     }
+    
     NSData * inputData = [NSData dataWithContentsOfFile:videoUrlPath];
     self.inputL.text = [NSString stringWithFormat:@" input mov size is %@", [self humanSize:inputData.length]];
-    NSString * ffmpegCommand = [PoporFFmpegTool ffmpegGetCmd_VideoPath:videoUrlPath size:size tPath:tPath];
+    NSString * ffmpegCommand = [PoporFFmpegTool ffmpegCommand_VideoPath:videoUrlPath tSize:size tPath:tPath];
+    NSLog(@"ffmpegCommand: %@", ffmpegCommand);
     
-//    [PoporFFmpegTool ffmpegExecuteCmd:ffmpegCommand finish:^(BOOL finish) {
-//        NSLog(@"执行结果: %i", finish);
-//        
-//    }];
+    [PoporFFmpegTool executeCommand:ffmpegCommand finish:^(BOOL finish) {
+        self.outputL.text = [NSString stringWithFormat:@"result: %i", finish];
+        NSLog(@"%@", self.outputL.text);
+    }];
 }
 
 - (BOOL)isFileExist:(NSString *)filePath {

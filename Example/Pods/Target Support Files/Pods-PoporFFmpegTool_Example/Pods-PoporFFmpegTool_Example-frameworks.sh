@@ -162,25 +162,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/PoporFFmpegTool/PoporFFmpegTool.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/mobileffmpeg.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/libavcodec.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/libavdevice.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/libavfilter.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/libavformat.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/libavutil.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/libswresample.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/libswscale.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/PoporFFmpegTool/PoporFFmpegTool.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/mobileffmpeg.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/libavcodec.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/libavdevice.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/libavfilter.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/libavformat.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/libavutil.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/libswresample.framework"
-  install_framework "${PODS_ROOT}/mobile-ffmpeg-full/libswscale.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
